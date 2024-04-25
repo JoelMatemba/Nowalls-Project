@@ -1,0 +1,1595 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url("/BalooBhaijaan-Regular.ttf");
+}
+
+@font-face {
+    font-family: "myfont2";
+    src: url("/Baloo2-Regular.ttf");
+}
+
+
+h2{
+    font-size: 36px;
+}
+
+p{
+    line-height: 1.7em;
+    font-size: 14px;
+    font-family: "myfont2", Baloo2 ;
+}
+
+// body{
+
+// }
+// Start Nav Bar //
+
+.navigation{
+
+    font-family: "myfont", BalooBhaijaan ;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: row;
+
+     .navigation1{
+       display: flex;
+       margin-top: 43px;
+       margin-right: 25px;
+       justify-content: space-between;
+
+     }
+
+     .dropdown-menu{
+        width: 385px;
+        height: 95vh;
+        padding-top: 10px;
+        // margin-right: 60px;  
+    //  padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dropaz{
+        margin-right: 30px;
+        margin-top: 20px;
+        width: 20px;
+        height: 20px;
+        
+    }  
+
+a{
+    text-decoration: none;
+    font-size: 38px;
+    margin-left: 35px;
+    font-weight:900 ;
+    color: rgb(2, 62, 84);
+}
+
+.con{
+    color:  rgb(215, 123, 65);
+}
+
+.conta{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.blue{
+    margin-right: 40px;
+}
+
+.red{
+    margin-right: 40px;
+}
+
+// .container {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     padding: 10px;
+//   }
+  
+//   .menu-btn {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     width: 40px;
+//     height: 40px;
+//     cursor: pointer;
+//     z-index: 100;
+//   }
+  
+//   .hamburger {
+//     display: block;
+//     width: 25px;
+//     height: 3px;
+//     background-color: #333;
+//     position: relative;
+//     transition: background-color 0.3s ease;
+//   }
+  
+//   .hamburger:before,
+//   .hamburger:after {
+//     content: "";
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     background-color: #333;
+//     transition: transform 0.3s ease;
+//   }
+  
+//   .hamburger:before {
+//     top: -10px;
+//   }
+  
+//   .hamburger:after {
+//     bottom: -10px;
+//   }
+  
+//   .menu {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background-color: rgba(0, 0, 0, 0.8);
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     opacity: 0;
+//     visibility: hidden;
+//     transition: opacity 0.3s ease;
+//   }
+  
+//   .menu ul {
+//     list-style-type: none;
+//     padding: 0;
+//     margin: 0;
+//     text-align: center;
+//   }
+  
+//   .menu ul li {
+//     margin-bottom: 20px;
+//   }
+  
+//   .menu ul li a {
+//     color: #fff;
+//     text-decoration: none;
+//     font-size: 24px;
+//     transition: color 0.3s ease;
+//   }
+  
+//   .menu ul li a:hover {
+//     color: #ff7f50;
+//   }
+  
+//   #menu-toggle:checked ~ .menu {
+//     opacity: 1;
+//     visibility: visible;
+//   }
+  
+//   #menu-toggle:checked ~ .menu-btn .hamburger {
+//     background-color: transparent;
+//   }
+  
+//   #menu-toggle:checked ~ .menu-btn .hamburger:before {
+//     transform: rotate(45deg);
+//     top: 0;
+//   }
+  
+//   #menu-toggle:checked ~ .menu-btn .hamburger:after {
+//     transform: rotate(-45deg);
+//     bottom: 0;
+//   }
+
+}
+
+// End Nav Bar //
+
+
+// Start Home //
+
+.home{
+    
+    h1{
+        font-size: 73px;
+        font-weight: 900;
+        font-family: "myfont", BalooBhaijaan ;
+        
+        color: rgb(0, 62, 84);
+    }
+    h2{
+        font-size: 38px;
+        font-weight:900 ;
+        color: rgb(0, 62, 84);
+        font-family: "myfont", BalooBhaijaan ;
+    }
+        p{
+            font-weight: bolder;
+            // padding-left: 50px;
+            margin-left: 10px;
+            font-family: "myfont", BalooBhaijaan ;
+        }
+
+        img{
+            width: 100%;
+     }
+
+     .nowalls{
+        color: rgb(215, 123, 65);
+        font-size: 50px;
+     }
+
+     .main{
+
+        color: rgb(0, 62, 84);
+     }
+
+     .row{
+        width: 100%;
+     }
+
+     .img4{
+         margin-top: 137px;
+
+     }
+
+     .line1{
+        width: 59px;
+        border: 1px solid rgb(215, 123, 65);
+        height: 1px;
+        // display: flex;
+        // display: inline-block;
+        margin-top: 8px;
+        
+     }
+     
+     .below1{
+        opacity: 20%;
+        margin-top: 15px;
+        height: 5vh;
+        width: 295px;
+        margin-left: -8px;
+        
+     }
+
+    .below2{
+         opacity: 20%;
+         margin-top: 15px;
+         width: 350px;
+         height: 5vh;
+         margin-left: -3px;
+        
+     }
+
+     .below3{
+         opacity: 20%;
+         margin-top: 15px;
+         height: 5vh;
+         width: 150px;
+         margin-left: 60px;
+        
+     }
+
+     .below4{
+         opacity: 20%;
+         height: 5vh;
+         width: 370px;
+         margin-top: 15px;
+         margin-left: -73px;
+        
+ }
+
+    .homme{
+        margin-left: 80px;
+        margin-right: 55px;
+    }
+
+    .less{
+        margin-top: 15px;
+    }
+
+    .main{
+        font-family: "myfont", BalooBhaijaan ;
+        margin-left: 13px; 
+
+    }
+
+    .hhhhhhh{
+        display: flex;
+    }
+
+    .one{
+        object-fit: contain;
+        
+    }
+
+    .two{
+        object-fit: cover;
+        margin-left: 10px;
+    }
+    
+    
+}
+
+// End Home //
+
+
+// Star About //
+
+.About{
+    
+    padding-top: 60px;
+    padding-bottom: 100px;
+    
+
+    .image55{
+        width: 70%;
+        margin-left: 110px;
+    }
+
+ 
+
+    h2{
+        color: rgb(215, 123, 65);
+        margin-top: 100px;
+        font-family: "myfont", BalooBhaijaan ;
+        margin-bottom: 20px;
+    }
+
+
+    .aba{
+        margin-left: 47px;
+    }
+
+
+    .hd{
+        // margin-left: 70px;
+        padding-left: 90px;
+    
+    }
+
+    p{
+        font-family: "myfont2", baloo2;
+        font-weight: 800px;
+        
+    }
+
+}
+
+// End About //
+
+
+// Start services //
+
+.service{
+   
+    background-color: rgb(2, 62, 84);
+    padding-top: 92px;
+    padding-bottom: 100px;
+    
+
+   h2{
+     padding-bottom: 40px;
+     font-family: "myfont", BalooBhaijaan ;
+     color: white;
+   } 
+
+   .card{
+    background-color: rgb(8, 77, 102) ;
+    color: white;
+    padding: 13px;
+    border-color: rgb(8, 77, 102);
+
+    .card-img-top{
+        width: 350px;
+
+    }
+   }
+
+
+a{
+    text-decoration: none;
+    font-size: 27px;
+    margin-left: 35px;
+    font-weight:900 ;
+    color: black;
+}
+
+h5{
+    color: rgb(215, 123, 65);
+
+}
+
+.line{
+    width: 320px;
+    border: 1px solid rgb(215, 123, 65);
+    height: 1px;
+    display: flex;
+    margin-bottom: 10px;
+
+ }
+
+ .serve{
+    margin-left: 80px;
+    margin-right: 80px;
+   
+ }
+
+ }
+
+ .carousel-indicators{
+    button {
+        position: relative;
+        top: 70px;
+        display: flex;
+        
+    }
+
+   }
+
+   .card-text{
+        font-family: "myfont2", Baloo2;
+        font-size: 14px;
+        font-weight: 800px;
+   }
+
+// End Services //
+
+
+   
+// Start Subscribe //
+
+.subscribe{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+    h2{
+     color: rgb(215, 123, 65);
+     margin-bottom: 20px;
+     font-family: "myfont", BalooBhaijaan ;
+    
+    }
+
+    .subscribebutton{
+    margin-top: 8px;
+    background-color: rgb(0, 62, 84);
+    padding: 10px;
+    width: 307px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    }
+
+    button{
+        
+        color: white;
+        text-decoration: none; 
+        font-family: "myfont", BalooBhaijaan ;
+        background-color: rgb(0, 62, 84); 
+        border-style: none;
+        font-size: 18px;     
+        
+    }
+
+    .now{
+        align-items: center;
+
+    }
+    
+}
+
+// End Subscribe //
+
+
+// Start Contact //
+
+.contact{
+    
+    background-color: rgb(243, 244, 246);
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+
+  p{
+    font-size: 16px;
+    font-family: "myfont2", Baloo2;
+    line-height: 1.2em;
+    font-weight: 800px;
+
+  }  
+
+  img{
+    height: 99vh;
+    width: 70%;
+    object-fit:fill;
+    margin-right: 80px;
+    
+  }
+  
+
+  .forms{
+    margin-left: 100px;
+    margin-right: 100px;
+
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    font-family: "myfont", BalooBhaijaan ;
+    font-size: 18px;
+   
+  }
+  .button{
+    margin-left:100px ;
+    margin-right: 0px;
+    margin-top: 8px;
+    background-color: rgb(0, 62, 84);
+    padding: 15px;
+    width: 402px;
+    
+  }
+
+  h2{
+    color: rgb(215, 123, 65);
+    font-family: "myfont", BalooBhaijaan ;
+  }
+
+  .message{
+    margin-top: 23px;
+    border-style: none;
+    padding-left: 20px;
+    color: rgb(128, 151, 160);
+    padding-top: 10px;
+    margin-right: 10px;
+
+  }
+
+  .contacted{
+    margin-left: 47px;
+    margin-right: 47px;
+
+  }
+
+  .form-control{
+    padding-left: 26px;
+    color: rgb(128, 151, 160);
+    border-style: none;
+    height: 50px;
+    width: 402px;
+
+  }
+
+  }
+
+
+
+// End Contact //
+
+
+// Start Below Contact //
+
+   .Nowalls{
+   
+    color: white;
+    padding: 30px;
+    // padding-bottom: 100px;
+    background-image: url("images/Group 9.png");
+    background-size: cover;
+    width: 100%;
+    height: 44vh;
+
+   
+
+   h2{
+
+    font-family: "myfont", BalooBhaijaan ;
+    margin-top: 35px;
+
+   }
+
+   .ppp{
+
+    display: flex;
+    justify-content: space-between;
+    // margin-left: 20px;
+    // padding-top: 7px;
+    // margin-top: 10px;
+    
+}
+.phonenumber{
+    display: flex;
+}
+.samora{
+    display: flex;
+ 
+}
+
+.no{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+i{
+
+    font-size:20px;
+    
+}
+
+.beloowC{
+   margin-left: 47px;
+   margin-right: 47px;
+//    width: 100%;
+
+}
+
+.location{
+    font-size: 1em;
+    //  margin-right: 10px;
+}
+
+.para5{
+    font-family: "myfont2", Baloo2;
+    margin-left: 19px;
+    font-weight: 800px;
+}
+
+.no{
+    font-family: "myfont2", Baloo2;
+}
+
+
+
+}
+
+// End Below Contact //
+
+
+// Start Footer //
+
+.loggo{
+    font-family: "myfont", BalooBhaijaan ;
+    
+    img {
+        width: 20%;
+        object-fit: cover;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 550px;
+        
+
+    }
+}
+
+// End Footer //
+
+
+@media (max-width: 576px) {
+
+    
+
+.navigation{
+
+    .logo{
+        img{
+            width: 53%;
+        }
+ 
+    }
+
+    // .dropaz{
+    //     // margin-top: 5px;
+
+    //     background: transparent transparent rgb(215 123 65 / 80%);
+    //     margin-top: 25px;
+       
+    // }
+    .navigation1{
+        display: none;
+    }
+
+    a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .dropdown-menu{
+        // transition: 1s ease-in-out; 
+        transform: rotate(90deg);
+        transform-origin: 0% 0%;
+        left: 0;
+        // background-image: url(/images/Group\ 1.png);
+        background-color: rgb(128, 151, 160);
+       
+}
+
+}
+
+.home{
+
+        img{
+            width: 45%;
+            margin-left: 10px;
+            // height: 15vh;
+        }
+
+        .three{
+             height: 15vh;
+        }
+
+    .homme{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 16px;
+       } 
+
+       .nowalls{
+        font-size: 18px;
+       }
+
+       h6{
+        font-size: 11px;
+       }
+
+       .below1{
+        display: none;
+       }
+
+       .below2{
+        display: none;
+       }
+
+       .img4{
+        display: none;
+       }
+
+       .two{
+        display: none;
+       }
+
+       .below3{
+        display: none;
+       }
+
+       .one{
+        display: none;
+       }
+
+       .below4{
+        display: none;
+       }
+
+}
+
+.About{
+    padding-bottom: 25px;
+    padding-top: 3px;
+
+    .aba{
+        margin-left: 0px;
+    }
+
+ .hd{
+    padding-left: 27px ;
+
+    h2{
+      font-size: 18px;
+      margin-top: 20px;
+    }
+
+    p{
+        font-size: 10px;
+        width: 320px;
+    }
+
+}
+
+.image55{
+    margin-left: 85px;
+    width: 55%;
+     height: 20vh;
+}
+
+}
+
+.service{
+
+    padding-bottom: 40px;
+    overflow: hidden;
+
+    .serve{
+        margin-left: 27px;
+        margin-right: 32px;
+    }
+
+    padding-top: 39px;
+    
+    h2{
+        font-size: 18px;
+        margin-right: 20px;
+        padding-bottom: 0px;
+        margin-bottom: 0;
+
+    }
+
+    .card{
+        padding: 6px;
+        margin-top: 40px;
+
+        .card-img-top{
+            width: 271px;
+            margin-left: 16px;
+            padding-top: 10px;
+    
+        }
+
+       }
+
+      h5{
+        font-size: 14px;
+      }
+
+      .line{
+        width: 270px;
+        margin-bottom: 7px;
+      }
+
+      .card-text{
+        font-size: 10px;
+        width: 268px;
+      }
+
+      .carousel-indicators{
+        display: none;
+      }
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    h2{
+        font-size: 18px;
+        
+    }
+
+    .subscribebutton{
+        padding: 8px;
+        width: 120px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    
+        }
+    
+        button{
+            font-size: 8px;     
+            
+        }
+
+        img{
+            width: 310px;
+            height: 35vh;
+            margin-right: 10px;
+        }
+
+        .now{
+            margin-right: 70px;
+        }
+
+}
+
+.contact{
+
+    margin-bottom: 34px;
+
+    img{
+        height: 44vh;
+        width: 83%;
+        margin-right: 5px;  
+      }
+
+      h2{
+        font-size: 18px;
+        margin-top: 15px;
+      }
+
+      p{
+        font-size: 10px;
+        margin-bottom: 0px;
+      }
+
+      .forms{
+        margin-left: 0px;
+        
+      }
+      
+      .form-control{
+        height: 39px;
+        width: 285px;
+        font-size: 10px;
+        
+      }
+
+      .message{
+        font-size: 10px;
+        width: 285px;
+      }
+
+      .button{
+        margin-left: 0px;
+        width: 135px;
+        padding: 6px;
+        margin-bottom: 20px;
+      }
+
+      a{
+        font-size: 16px;
+      }
+      
+}
+
+.Nowalls{
+
+
+         padding-top: 0px;
+         padding-bottom: 0px;
+         background-size: 100%;
+         background-repeat: no-repeat;
+         padding: 0;
+         height: 17vh;
+        
+    
+
+    h2{
+       font-size: 14px; 
+       padding-bottom: 0px;
+       margin-top: 20px;
+       
+    }
+
+    .para5{
+        font-size: 8px;
+        margin-left: 5px;
+        padding-bottom: 0px;
+    }
+
+    .location{
+        font-size: 1rem;
+    }
+
+    i{
+      font-size: 10px;  
+    }
+
+    .no{
+
+       font-size: 7px;
+       margin-right: 70px; 
+       padding-left: 5px;
+
+    }
+
+    .ppp{
+        margin-left: 0px;
+    }
+
+    .ico{
+        font-size: 1rem;
+    }
+
+    i{
+       font-size: 12px; 
+    }
+    
+}
+
+.loggo{
+    img{
+        width: 26%;
+        margin-left: 143px;
+        height: 8vh;
+        
+    } 
+}
+
+}
+
+
+
+ @media only screen and (min-width: 578px ) and (max-width:768px) {
+
+    .navigation{
+
+        .logo{
+            img{
+                width: 70%;
+            }
+        }
+     
+     }
+     .navigation1{
+         a{
+             font-size: 18px;
+             margin-left: 0px;
+         }
+
+         .dropaz{
+            display: none;
+         }
+    
+        }
+
+    .home{
+
+        .homme{
+    
+            margin-left: 48px;
+            margin-right: 40px;
+           } 
+    
+        h1{
+            font-size: 46px;
+            margin-bottom: 0px;
+        }
+    
+        h2{
+            font-size: 32px;  
+        }
+    
+        .nowalls{
+            font-size: 40px;
+        }
+    
+        h6{
+            font-size: 22px;
+        }
+    
+        .line1{
+            margin-top: 18px;
+            width: 69px;
+        }
+    
+        .two{
+            height: 20.5vh;
+        }
+    
+        .below3{
+            display: none;
+        }
+
+        .below4{
+            display: none;
+        }
+
+        .below1{
+            display: none;
+        }
+    
+        .one{
+            height: 20.5vh;
+            // padding-left: 30px;
+        }
+    
+        .img4{
+           margin-top: 84px; 
+        //    padding-left: 30px;
+        }
+    
+        .less{
+            margin-top: 20px;
+        }
+    
+        .below1{
+            margin-top: 30px;
+        }
+
+        .below2{
+            display: none;
+        }
+    }
+    
+    .About{
+        
+        padding-bottom: 74px;
+
+        .hd{
+            padding-left: 0px;
+    
+            p{
+                width: 422px;
+            }
+        }
+    
+        h2{
+            margin-top: 30px;
+            font-size: 23px;
+        }
+    
+        .image55{
+            margin-top: 77px;
+            margin-left: 100px;
+        }
+    }
+
+     .service{
+
+            padding-top: 70px;
+
+        h2{
+         font-size: 24px;
+        } 
+        
+       .card-title{
+         font-size: 14px; 
+      }
+
+      .line{
+        width: 130px;
+      }
+
+        .card-text{
+            font-size: 9px;
+            }
+
+            .card{
+              width: 217px;
+
+                .card-img-top{
+                    width: 100%;
+                    height: 10vh;
+                }
+
+            }
+
+            .serve{
+                margin-left: 40px;
+                margin-right: 40px;
+            }
+
+        }
+
+     
+
+    .subscribe{
+
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+        h2{
+          font-size: 26px;  
+        }
+
+        img{
+            width: 35%;
+            height: 27vh;
+        }
+
+        .subscribebutton{
+            width: 180px;
+            padding: 10px;
+        }
+
+        button{
+           font-size: 14px; 
+        }
+    }
+
+    .contact{
+
+        // .contacted{
+        //     display: flex;
+        //     // flex-direction: column;
+        // align-items: center;
+        // justify-content: center;
+        // }
+        margin-bottom: 55px;
+        padding: 30px;
+
+        .img{
+           display: none;
+        }
+
+        h2{
+           font-size: 26px; 
+           margin-right: 46px;
+        }
+
+        p{
+          font-size: 12px;
+          margin-bottom: 0px;
+          margin-right: 50px;  
+        }
+
+        .forms{
+            margin-left: 85px;
+        
+        }
+
+        .form-control{
+
+                height: 60px;
+                width: 480px;
+                font-size: 14px;
+                // margin-left: 80px;
+        
+        }
+
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .col-md-6{
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .po{
+            display: none;
+            
+        }
+
+        .message{
+            font-size: 14px;
+            width: 480px;
+            height: 15vh;
+
+          }
+    
+          .button{
+            margin-left: 0px;
+            width: 236px;
+            padding: 16px;
+            margin-bottom: 20px;
+            margin-top: 18px;
+          }
+    
+          a{
+            font-size: 20px;
+          }
+
+ }
+
+    .Nowalls{
+
+    
+            padding-top: 53px;
+            // padding-bottom: 50px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            height: 21vh;
+           
+       
+       .phonenumber{
+        margin-left: 160px;
+        position: absolute;
+       }
+   
+       h2{
+          font-size: 19px; 
+          padding-bottom: 0px;
+          margin-top: 8px;
+          
+       }
+   
+       .para5{
+           font-size: 12px;
+           margin-left: 29px;
+           padding-bottom: 0px;
+           position: absolute;
+       }
+   
+       .location{
+           font-size: 1rem;
+       }
+   
+       .no{
+          font-size: 10px; 
+          padding-left: 5px;
+          margin-left: 20px;
+       }
+   
+       .ppp{
+           margin-left: 10px;
+       }
+   
+       .ico{
+           font-size: 1rem;
+           margin-left: 20px;
+       }
+
+       i{
+        font-size: 20px;
+       }
+       
+    }
+
+    .loggo{
+
+        img{
+            width: 33%;
+            margin-left: 250px;
+            height: 8vh;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+        } 
+    }
+
+ }
+
+
+ @media (min-width:768px) {
+    .dropaz{
+        display: none;
+    }
+ }
+
+ @media only screen and (min-width: 993px ) and (max-width:1024px) {
+
+    .navigation1{
+
+        a{
+            font-size: 33px;
+            margin-left: 0px;
+        }
+
+    }
+
+    .home{
+       
+        .line1{
+            width: 95px;
+        }
+        .one{
+           height: 19.5vh; 
+        }
+
+        .two{
+            height: 19.5vh;
+        }
+
+        .img4{
+            margin-top: 103px;
+        }
+
+        .below1{
+           width: 210px; 
+           height: 3vh;
+        }
+
+        .below2{
+            width: 250px;
+            height: 3vh;
+        }
+
+        .below3{
+            height: 3vh;
+            width: 95px;
+        }
+
+        .below4{
+            height: 3vh;
+            width: 260px;
+            margin-left: -48px;
+            // margin-bottom: -47px;
+        }
+    }
+
+    .About{
+
+        padding-top: 24px;
+        padding-bottom: 60px;
+
+        h2{
+            font-size: 35px;
+
+        }
+
+        .hd{
+            padding-left: 53px;
+        }
+
+        .image55{
+            width: 90%;
+            margin-left: 26px;
+
+        }
+
+        p{
+            font-size: 12px;
+
+        }
+
+    }
+
+    .service{
+
+        .card-title{
+            font-size: 26px;
+        }
+
+        .card{
+
+            width: 270px;
+
+            .card-img-top{
+
+                width: 237px;
+            }
+        }
+
+        .card-text{
+            font-size: 12px;
+        }
+
+        
+
+        .line{
+            width: 210px;
+
+        }
+
+    } 
+
+    .subscribe{
+
+        margin-top: 70px;
+        margin-bottom: 70px;
+
+        h2{
+            font-size: 30px;
+        }
+
+        img{
+            width: 40%;
+        }
+
+        .subscribebutton{
+            width: 256px;
+        }
+
+        // .serve{
+        //     margin-left: 5px;
+        //     margin-right: 5px;
+        // }
+
+    }
+
+    .contact{
+
+        margin-bottom: 56px;
+
+        img{
+            height: 50vh;
+            width: 88%;
+        }
+
+        .form-control{
+            width: 350px;
+
+        }
+
+        .button{
+            width: 350px;
+            margin-left: 53px;
+
+        }
+
+        .message{
+            width: 350px;
+        }
+
+        .forms{
+            margin-left: 53px;
+        }
+
+    }
+
+    .Nowalls{
+
+        h2{
+            font-size: 29px;
+            margin-top: 40px;
+        }
+     
+        
+            background-size: cover;
+            width: 100%;
+            height: 20vh;
+    
+        
+        .phonenumber{
+            margin-left: 222px;
+            position: absolute;
+           }
+        
+           h2{
+              font-size: 26px; 
+              padding-bottom: 13px;
+              
+           }
+        
+           .para5{
+               font-size: 16px;
+               margin-left: 32px;
+               padding-bottom: 0px;
+               position: absolute;
+           }
+        
+           .location{
+               font-size: 1rem;
+           }
+        
+           .no{
+              font-size: 16px; 
+              padding-left: 5px;
+              margin-left: 20px;
+           }
+        
+           .ppp{
+               margin-left: 10px;
+           }
+        
+        //    .ico{
+        //        font-size:2rem;
+        //        margin-left: 20px;
+        //    }
+
+           i{
+            font-size:30px;
+           }
+
+    }
+
+
+    .loggo{
+
+        img{
+          width: 35%; 
+          height: 11vh;
+          margin-left: 333px; 
+        }
+    }
+
+
+ }
+
+
+
+ 
+   
