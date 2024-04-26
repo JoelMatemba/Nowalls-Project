@@ -13,6 +13,7 @@
 }
 h2 {
   font-size: 36px;
+  font-family: "myfont", Baloo Bhaijaan;
 }
 
 p {
@@ -22,7 +23,7 @@ p {
 }
 
 .navigation {
-  font-family: "myfont", BalooBhaijaan;
+  font-family: "myfont", Baloo Bhaijaan;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -32,6 +33,7 @@ p {
   margin-top: 43px;
   margin-right: 25px;
   justify-content: space-between;
+  font-family: "myfont", Baloo Bhaijaan;
 }
 .navigation .dropdown-menu {
   width: 385px;
@@ -54,9 +56,11 @@ p {
   margin-left: 35px;
   font-weight: 900;
   color: rgb(2, 62, 84);
+  font-family: "myfont", Baloo Bhaijaan;
 }
 .navigation .con {
   color: rgb(215, 123, 65);
+  font-family: "myfont", Baloo Bhaijaan;
 }
 .navigation .conta {
   display: flex;
@@ -72,19 +76,19 @@ p {
 .home h1 {
   font-size: 73px;
   font-weight: 900;
-  font-family: "myfont", BalooBhaijaan;
+  font-family: "myfont", Baloo Bhaijaan;
   color: rgb(0, 62, 84);
 }
 .home h2 {
   font-size: 38px;
   font-weight: 900;
   color: rgb(0, 62, 84);
-  font-family: "myfont", BalooBhaijaan;
+  font-family: "myfont", Baloo Bhaijaan;
 }
 .home p {
   font-weight: bolder;
   margin-left: 10px;
-  font-family: "myfont", BalooBhaijaan;
+  font-family: "myfont", Baloo Bhaijaan;
 }
 .home img {
   width: 100%;
@@ -144,7 +148,7 @@ p {
   margin-top: 15px;
 }
 .home .main {
-  font-family: "myfont", BalooBhaijaan;
+  font-family: "myfont", Baloo Bhaijaan;
   margin-left: 13px;
 }
 .home .hhhhhhh {
@@ -171,7 +175,7 @@ p {
 .About h2 {
   color: rgb(215, 123, 65);
   margin-top: 100px;
-  font-family: "myfont", BalooBhaijaan;
+  font-family: "myfont", Baloo Bhaijaan;
   margin-bottom: 20px;
 }
 .About .aba {
@@ -192,7 +196,7 @@ p {
 }
 .service h2 {
   padding-bottom: 40px;
-  font-family: "myfont", BalooBhaijaan;
+  font-family: "myfont", Baloo Bhaijaan;
   color: white;
 }
 .service .card {
@@ -248,7 +252,7 @@ p {
 .subscribe h2 {
   color: rgb(215, 123, 65);
   margin-bottom: 20px;
-  font-family: "myfont", BalooBhaijaan;
+  font-family: "myfont", Baloo Bhaijaan;
 }
 .subscribe .subscribebutton {
   margin-top: 8px;
@@ -262,7 +266,7 @@ p {
 .subscribe button {
   color: white;
   text-decoration: none;
-  font-family: "myfont", BalooBhaijaan;
+  font-family: "myfont", Baloo Bhaijaan;
   background-color: rgb(0, 62, 84);
   border-style: none;
   font-size: 18px;
@@ -297,7 +301,7 @@ p {
 .contact a {
   text-decoration: none;
   color: white;
-  font-family: "myfont", BalooBhaijaan;
+  font-family: "myfont", Baloo Bhaijaan;
   font-size: 18px;
 }
 .contact .button {
@@ -310,7 +314,7 @@ p {
 }
 .contact h2 {
   color: rgb(215, 123, 65);
-  font-family: "myfont", BalooBhaijaan;
+  font-family: "myfont", Baloo Bhaijaan;
 }
 .contact .message {
   margin-top: 23px;
@@ -378,7 +382,7 @@ p {
 }
 
 .loggo {
-  font-family: "myfont", BalooBhaijaan;
+  font-family: "myfont", Baloo Bhaijaan;
 }
 .loggo img {
   width: 20%;
