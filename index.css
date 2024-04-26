@@ -185,7 +185,7 @@ p {
   padding-left: 90px;
 }
 .About p {
-  font-family: "myfont2", baloo2;
+  font-family: "myfont2", baloo 2;
   font-weight: 800px;
 }
 
@@ -237,7 +237,7 @@ p {
 }
 
 .card-text {
-  font-family: "myfont2", Baloo2;
+  font-family: "myfont2", Baloo 2;
   font-size: 14px;
   font-weight: 800px;
 }
@@ -283,7 +283,7 @@ p {
 }
 .contact p {
   font-size: 16px;
-  font-family: "myfont2", Baloo2;
+  font-family: "myfont2", Baloo 2;
   line-height: 1.2em;
   font-weight: 800px;
 }
@@ -345,7 +345,7 @@ p {
   height: 44vh;
 }
 .Nowalls h2 {
-  font-family: "myfont", BalooBhaijaan;
+  font-family: "myfont", Baloo Bhaijaan;
   margin-top: 35px;
 }
 .Nowalls .ppp {
@@ -373,12 +373,12 @@ p {
   font-size: 1em;
 }
 .Nowalls .para5 {
-  font-family: "myfont2", Baloo2;
+  font-family: "myfont2", Baloo 2;
   margin-left: 19px;
   font-weight: 800px;
 }
 .Nowalls .no {
-  font-family: "myfont2", Baloo2;
+  font-family: "myfont2", Baloo 2;
 }
 
 .loggo {
@@ -623,9 +623,9 @@ p {
     font-size: 12px;
   }
   .loggo img {
-    width: 26%;
+    width: 24%;
     margin-left: 143px;
-    height: 8vh;
+    height: 6vh;
   }
 }
 @media only screen and (min-width: 578px) and (max-width: 768px) {
