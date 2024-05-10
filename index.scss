@@ -334,6 +334,10 @@ a{
     
     padding-top: 60px;
     padding-bottom: 100px;
+
+    .row{
+        margin: 0;
+    }
     
 
     .image55{
@@ -591,12 +595,13 @@ h5{
    .Nowalls{
    
     color: white;
-    padding: 30px;
+    // padding: 30px;
     // padding-bottom: 100px;
     background-image: url("images/Group 9.png");
     background-size: cover;
     width: 100%;
     height: 44vh;
+    overflow: hidden;
 
    
 
@@ -604,6 +609,7 @@ h5{
 
     font-family: "myfont", Baloo Bhaijaan ;
     margin-top: 35px;
+    width: 555px;
 
    }
 
@@ -611,6 +617,7 @@ h5{
 
     display: flex;
     justify-content: space-between;
+    width: 407px;
     // margin-left: 20px;
     // padding-top: 7px;
     // margin-top: 10px;
@@ -638,7 +645,7 @@ i{
 .beloowC{
    margin-left: 47px;
    margin-right: 47px;
-//    width: 100%;
+   width: 900px;
 
 }
 
@@ -655,6 +662,10 @@ i{
 
 .no{
     font-family: "myfont2", Baloo 2;
+}
+
+.row{
+    margin-right: 0;
 }
 
 
@@ -797,6 +808,10 @@ i{
 
     .aba{
         margin-left: 0px;
+
+        .row{
+            margin-right: 0px;
+        }
     }
 
  .hd{
@@ -805,6 +820,7 @@ i{
     h2{
       font-size: 18px;
       margin-top: 20px;
+      width: 200px;
     }
 
     p{
@@ -1005,6 +1021,7 @@ i{
 
     .ppp{
         margin-left: 0px;
+        width: 263px;
     }
 
     .ico{

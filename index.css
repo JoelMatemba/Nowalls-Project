@@ -168,6 +168,9 @@ p {
   padding-top: 60px;
   padding-bottom: 100px;
 }
+.About .row {
+  margin: 0;
+}
 .About .image55 {
   width: 70%;
   margin-left: 110px;
@@ -338,19 +341,21 @@ p {
 
 .Nowalls {
   color: white;
-  padding: 30px;
   background-image: url("images/Group 9.png");
   background-size: cover;
   width: 100%;
   height: 44vh;
+  overflow: hidden;
 }
 .Nowalls h2 {
   font-family: "myfont", Baloo Bhaijaan;
   margin-top: 35px;
+  width: 555px;
 }
 .Nowalls .ppp {
   display: flex;
   justify-content: space-between;
+  width: 407px;
 }
 .Nowalls .phonenumber {
   display: flex;
@@ -368,6 +373,7 @@ p {
 .Nowalls .beloowC {
   margin-left: 47px;
   margin-right: 47px;
+  width: 900px;
 }
 .Nowalls .location {
   font-size: 1em;
@@ -379,6 +385,9 @@ p {
 }
 .Nowalls .no {
   font-family: "myfont2", Baloo 2;
+}
+.Nowalls .row {
+  margin-right: 0;
 }
 
 .loggo {
@@ -465,12 +474,16 @@ p {
   .About .aba {
     margin-left: 0px;
   }
+  .About .aba .row {
+    margin-right: 0px;
+  }
   .About .hd {
     padding-left: 27px;
   }
   .About .hd h2 {
     font-size: 18px;
     margin-top: 20px;
+    width: 200px;
   }
   .About .hd p {
     font-size: 10px;
@@ -615,6 +628,7 @@ p {
   }
   .Nowalls .ppp {
     margin-left: 0px;
+    width: 263px;
   }
   .Nowalls .ico {
     font-size: 1rem;
