@@ -478,7 +478,7 @@ p {
     margin-right: 0px;
   }
   .About .hd {
-    padding-left: 27px;
+    padding-left: 12px;
   }
   .About .hd h2 {
     font-size: 18px;
@@ -493,6 +493,7 @@ p {
     margin-left: 85px;
     width: 55%;
     height: 20vh;
+    display: none;
   }
   .service {
     padding-bottom: 40px;
@@ -609,6 +610,7 @@ p {
     font-size: 14px;
     padding-bottom: 0px;
     margin-top: 20px;
+    width: 555px;
   }
   .Nowalls .para5 {
     font-size: 8px;
@@ -628,7 +630,7 @@ p {
   }
   .Nowalls .ppp {
     margin-left: 0px;
-    width: 263px;
+    width: 269px;
   }
   .Nowalls .ico {
     font-size: 1rem;
