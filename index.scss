@@ -6,24 +6,24 @@
 
 @font-face {
     font-family: "myfont";
-    src: url("/BalooBhaijaan-Regular.ttf");
+    src: url("BalooBhaijaan-Regular.ttf");
 }
 
 @font-face {
     font-family: "myfont2";
-    src: url("/Baloo2-Regular.ttf");
+    src: url("Baloo2-Regular.ttf");
 }
 
 
 h2{
     font-size: 36px;
-    font-family: "myfont", Baloo Bhaijaan ;
+    font-family: "myfont";
 }
 
 p{
     line-height: 1.7em;
     font-size: 14px;
-    font-family: "myfont2", Baloo2 ;
+    font-family: "myfont2";
 }
 
 // body{
@@ -33,7 +33,7 @@ p{
 
 .navigation{
 
-    font-family: "myfont", Baloo Bhaijaan ;
+    font-family: "myfont";
      display: flex;
      justify-content: space-between;
      flex-direction: row;
@@ -43,7 +43,7 @@ p{
        margin-top: 43px;
        margin-right: 25px;
        justify-content: space-between;
-       font-family: "myfont", Baloo Bhaijaan ;
+       font-family: "myfont";
 
      }
 
@@ -73,12 +73,12 @@ a{
     margin-left: 35px;
     font-weight:900 ;
     color: rgb(2, 62, 84);
-    font-family: "myfont", Baloo Bhaijaan ;
+    font-family: "myfont";
 }
 
 .con{
     color:  rgb(215, 123, 65);
-    font-family: "myfont", Baloo Bhaijaan ;
+    font-family: "myfont";
 }
 
 .conta{
@@ -207,7 +207,7 @@ a{
     h1{
         font-size: 73px;
         font-weight: 900;
-        font-family: "myfont", Baloo Bhaijaan ;
+        font-family: "myfont";
         
         color: rgb(0, 62, 84);
     }
@@ -215,13 +215,13 @@ a{
         font-size: 38px;
         font-weight:900 ;
         color: rgb(0, 62, 84);
-        font-family: "myfont", Baloo Bhaijaan ;
+        font-family: "myfont";
     }
         p{
             font-weight: bolder;
             // padding-left: 50px;
             margin-left: 10px;
-            font-family: "myfont", Baloo Bhaijaan ;
+            font-family: "myfont";
         }
 
         img{
@@ -303,7 +303,7 @@ a{
     }
 
     .main{
-        font-family: "myfont", Baloo Bhaijaan ;
+        font-family: "myfont";
         margin-left: 13px; 
 
     }
@@ -402,6 +402,11 @@ a{
         width: 350px;
 
     }
+
+    .card-body{
+        padding-left: 3px;
+    }
+
    }
 
 
@@ -607,7 +612,7 @@ h5{
 
    h2{
 
-    font-family: "myfont", Baloo Bhaijaan ;
+    font-family: "myfont";
     margin-top: 35px;
     width: 555px;
 
@@ -742,13 +747,13 @@ i{
 .home{
 
         img{
-            width: 45%;
+            width: 100%;
             margin-left: 10px;
             // height: 15vh;
         }
 
         .three{
-             height: 15vh;
+             height: 30vh;
         }
 
     .homme{
@@ -863,6 +868,11 @@ i{
         padding: 6px;
         margin-top: 40px;
 
+        .card-body{
+
+            padding-left: 18px;
+        }
+
         .card-img-top{
             width: 271px;
             margin-left: 16px;
@@ -921,6 +931,7 @@ i{
             width: 310px;
             height: 35vh;
             margin-right: 10px;
+            object-fit: cover;
         }
 
         .now{
@@ -1098,12 +1109,13 @@ i{
         }
     
         .line1{
-            margin-top: 18px;
+            margin-top: 11px;
             width: 69px;
         }
     
         .two{
-            height: 20.5vh;
+            height: 19.7vh;
+            margin-left: 2px;
         }
     
         .below3{
@@ -1119,17 +1131,17 @@ i{
         }
     
         .one{
-            height: 20.5vh;
+            height: 19.7vh;
             // padding-left: 30px;
         }
     
         .img4{
-           margin-top: 84px; 
+           margin-top: 76px; 
         //    padding-left: 30px;
         }
     
         .less{
-            margin-top: 20px;
+            margin-top: 10px;
         }
     
         .below1{
@@ -1143,13 +1155,14 @@ i{
     
     .About{
         
-        padding-bottom: 74px;
+        padding-bottom: 45px;
+        padding-top: 30px;
 
         .hd{
             padding-left: 0px;
     
             p{
-                width: 422px;
+                width: 424px;
             }
         }
     
@@ -1609,6 +1622,20 @@ i{
         }
     }
 
+
+ }
+
+ @media only screen and (min-width:1399.98px){
+
+    .contact{
+
+        .message{
+
+            padding-left: 29px;
+            margin-right: 59px;
+        }
+
+    }
 
  }
 
