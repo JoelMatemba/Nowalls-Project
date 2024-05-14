@@ -330,6 +330,7 @@ p {
   padding-top: 10px;
   margin-right: 10px;
   font-family: "myfont2";
+  width: 402px;
 }
 .contact .contacted {
   margin-left: 47px;
@@ -1025,6 +1026,9 @@ p {
   }
 }
 @media only screen and (min-width: 1399.98px) {
+  .service .card .card-img-top {
+    width: 383px;
+  }
   .contact .message {
     padding-left: 29px;
     margin-right: 59px;
