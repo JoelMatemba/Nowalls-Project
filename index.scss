@@ -76,8 +76,12 @@ a{
     font-family: "myfont";
 }
 
+a:hover{
+      color:  rgb(215, 123, 65);
+} 
+
 .con{
-    color:  rgb(215, 123, 65);
+    // color:  rgb(215, 123, 65);
     font-family: "myfont";
 }
 
@@ -1292,6 +1296,339 @@ i{
 
  }
 
+ @media only screen and (min-width: 766px) and (max-width:767.9px) {
+
+    .navigation{
+
+        .logo{
+            img{
+                width: 70%;
+            }
+        }
+
+        .dropaz{
+            display: none;
+        }
+     
+     }
+     .navigation1{
+         a{
+             font-size: 18px;
+             margin-left: 0px;
+         }
+
+         .dropaz{
+            display: none;
+         }
+    
+        }
+
+    .home{
+
+        .homme{
+    
+            margin-left: 48px;
+            margin-right: 40px;
+           } 
+    
+        h1{
+            font-size: 46px;
+            margin-bottom: 0px;
+        }
+    
+        h2{
+            font-size: 32px;  
+        }
+    
+        .nowalls{
+            font-size: 40px;
+        }
+    
+        h6{
+            font-size: 22px;
+        }
+    
+        .line1{
+            margin-top: 11px;
+            width: 69px;
+        }
+    
+        .two{
+            height: 19.7vh;
+            margin-left: 2px;
+        }
+    
+        .below3{
+            display: none;
+        }
+
+        .below4{
+            display: none;
+        }
+
+        .below1{
+            display: none;
+        }
+    
+        .one{
+            height: 19.7vh;
+            // padding-left: 30px;
+        }
+    
+        .img4{
+           margin-top: 76px; 
+        //    padding-left: 30px;
+        }
+    
+        .less{
+            margin-top: 10px;
+        }
+    
+        .below1{
+            margin-top: 30px;
+        }
+
+        .below2{
+            display: none;
+        }
+    }
+    
+    .About{
+        
+        padding-bottom: 45px;
+        padding-top: 30px;
+
+        .hd{
+            padding-left: 0px;
+    
+            p{
+                width: 424px;
+            }
+        }
+    
+        h2{
+            margin-top: 30px;
+            font-size: 23px;
+        }
+    
+        .image55{
+            margin-top: 77px;
+            margin-left: 100px;
+        }
+        
+    }
+
+     .service{
+
+            padding-top: 70px;
+
+        h2{
+         font-size: 24px;
+        } 
+        
+       .card-title{
+         font-size: 14px; 
+      }
+
+      .line{
+        width: 130px;
+      }
+
+        .card-text{
+            font-size: 9px;
+            }
+
+            .card{
+              width: 217px;
+
+                .card-img-top{
+                    width: 100%;
+                    height: 10vh;
+                }
+
+            }
+
+            .serve{
+                margin-left: 40px;
+                margin-right: 40px;
+            }
+
+        }
+
+     
+
+    .subscribe{
+
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+        h2{
+          font-size: 26px;  
+        }
+
+        img{
+            width: 35%;
+            height: 27vh;
+        }
+
+        .subscribebutton{
+            width: 180px;
+            padding: 10px;
+        }
+
+        button{
+           font-size: 14px; 
+        }
+    }
+
+    .contact{
+
+        // .contacted{
+        //     display: flex;
+        //     // flex-direction: column;
+        // align-items: center;
+        // justify-content: center;
+        // }
+        margin-bottom: 55px;
+        padding: 30px;
+
+        .img{
+           display: none;
+        }
+
+        h2{
+           font-size: 26px; 
+           margin-right: 46px;
+        }
+
+        p{
+          font-size: 12px;
+          margin-bottom: 0px;
+          margin-right: 50px;  
+        }
+
+        .forms{
+            margin-left: 85px;
+        
+        }
+
+        .form-control{
+
+                height: 60px;
+                width: 480px;
+                font-size: 14px;
+                // margin-left: 80px;
+        
+        }
+
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .col-md-6{
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .po{
+            display: none;
+            
+        }
+
+        .message{
+            font-size: 14px;
+            width: 480px;
+            height: 15vh;
+
+          }
+    
+          .button{
+            margin-left: 0px;
+            width: 236px;
+            padding: 16px;
+            margin-bottom: 20px;
+            margin-top: 18px;
+          }
+    
+          a{
+            font-size: 20px;
+          }
+
+ }
+
+    .Nowalls{
+
+    
+            padding-top: 53px;
+            // padding-bottom: 50px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            height: 21vh;
+           
+       
+       .phonenumber{
+        margin-left: 160px;
+        position: absolute;
+       }
+   
+       h2{
+          font-size: 19px; 
+          padding-bottom: 0px;
+          margin-top: 8px;
+          
+       }
+   
+       .para5{
+           font-size: 12px;
+           margin-left: 29px;
+           padding-bottom: 0px;
+           position: absolute;
+       }
+   
+       .location{
+           font-size: 1rem;
+       }
+   
+       .no{
+          font-size: 10px; 
+          padding-left: 5px;
+          margin-left: 20px;
+       }
+   
+       .ppp{
+           margin-left: 10px;
+       }
+   
+       .ico{
+           font-size: 1rem;
+           margin-left: 20px;
+       }
+
+       i{
+        font-size: 20px;
+       }
+       
+    }
+
+    .loggo{
+
+        img{
+            width: 33%;
+            margin-left: 250px;
+            height: 8vh;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+        } 
+    }
+    
+ }
+
 
  @media (min-width:768px) {
     .dropaz{
@@ -1531,6 +1868,68 @@ i{
 
  @media only screen and (min-width:1399.98px){
 
+    .home{
+
+        .less{
+
+            height: 25vh;
+            margin-top: 23px;
+        }
+
+        .two{
+            margin-left: 18px;
+        }
+
+        .img4{
+            margin-top: 118px;
+        }
+
+        .below1{
+
+            width: 319px;
+            margin-top: 8px;
+        }
+
+        .below2{
+
+            margin-top: 8px;
+            margin-left: 10px;
+        }
+
+        .below3{
+
+            width: 202px;
+            margin-top: 8px;
+        }
+
+        .below4{
+
+            margin-top: 8px;
+            margin-left: -42px;
+        }
+
+    }
+
+    .About{
+
+        h2{
+            font-size: 40px;
+        }
+
+        p{
+
+            font-size: 19px;
+            width: 675px;
+        }
+
+        .image55{
+
+            width: 68%;
+            margin-left: 139px;
+        }
+
+    }
+
 
     .service {
     
@@ -1541,21 +1940,75 @@ i{
 
        }
 
+       .card-text{
+        font-size: 16px;
+       }
+
+       .line{
+        width: 366px;
+       }
+
+       h5{
+        font-size: 22px;
+       }
+
    }
+
+}
+
+.subscribe{
+
+    button{
+        padding: 6px;
+    }
 
 }
 
     .contact{
 
+        p{
+            font-size: 18px;
+        }
+
+        a{
+            font-size: 20px;
+        }
+
+        .form-control{
+            font-size: 18px;
+        }
+
         .message{
 
             padding-left: 29px;
             margin-right: 59px;
+            font-size: 20px;
+        }
+
+        .get{
+            margin-left: -63px;
+        }
+
+        img{
+
+            height: 86vh;
+            width: 75%;
+            margin-right: -2px;
+        }
+
+    }
+
+    .Nowalls{
+
+        p{
+            font-size: 16px;
         }
 
     }
 
  }
+
+
 
 
 

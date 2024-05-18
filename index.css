@@ -58,8 +58,10 @@ p {
   color: rgb(2, 62, 84);
   font-family: "myfont";
 }
-.navigation .con {
+.navigation a:hover {
   color: rgb(215, 123, 65);
+}
+.navigation .con {
   font-family: "myfont";
 }
 .navigation .conta {
@@ -878,6 +880,232 @@ p {
     margin-bottom: 20px;
   }
 }
+@media only screen and (min-width: 766px) and (max-width: 767.9px) {
+  .navigation .logo img {
+    width: 70%;
+  }
+  .navigation .dropaz {
+    display: none;
+  }
+  .navigation1 a {
+    font-size: 18px;
+    margin-left: 0px;
+  }
+  .navigation1 .dropaz {
+    display: none;
+  }
+  .home .homme {
+    margin-left: 48px;
+    margin-right: 40px;
+  }
+  .home h1 {
+    font-size: 46px;
+    margin-bottom: 0px;
+  }
+  .home h2 {
+    font-size: 32px;
+  }
+  .home .nowalls {
+    font-size: 40px;
+  }
+  .home h6 {
+    font-size: 22px;
+  }
+  .home .line1 {
+    margin-top: 11px;
+    width: 69px;
+  }
+  .home .two {
+    height: 19.7vh;
+    margin-left: 2px;
+  }
+  .home .below3 {
+    display: none;
+  }
+  .home .below4 {
+    display: none;
+  }
+  .home .below1 {
+    display: none;
+  }
+  .home .one {
+    height: 19.7vh;
+  }
+  .home .img4 {
+    margin-top: 76px;
+  }
+  .home .less {
+    margin-top: 10px;
+  }
+  .home .below1 {
+    margin-top: 30px;
+  }
+  .home .below2 {
+    display: none;
+  }
+  .About {
+    padding-bottom: 45px;
+    padding-top: 30px;
+  }
+  .About .hd {
+    padding-left: 0px;
+  }
+  .About .hd p {
+    width: 424px;
+  }
+  .About h2 {
+    margin-top: 30px;
+    font-size: 23px;
+  }
+  .About .image55 {
+    margin-top: 77px;
+    margin-left: 100px;
+  }
+  .service {
+    padding-top: 70px;
+  }
+  .service h2 {
+    font-size: 24px;
+  }
+  .service .card-title {
+    font-size: 14px;
+  }
+  .service .line {
+    width: 130px;
+  }
+  .service .card-text {
+    font-size: 9px;
+  }
+  .service .card {
+    width: 217px;
+  }
+  .service .card .card-img-top {
+    width: 100%;
+    height: 10vh;
+  }
+  .service .serve {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .subscribe {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .subscribe h2 {
+    font-size: 26px;
+  }
+  .subscribe img {
+    width: 35%;
+    height: 27vh;
+  }
+  .subscribe .subscribebutton {
+    width: 180px;
+    padding: 10px;
+  }
+  .subscribe button {
+    font-size: 14px;
+  }
+  .contact {
+    margin-bottom: 55px;
+    padding: 30px;
+  }
+  .contact .img {
+    display: none;
+  }
+  .contact h2 {
+    font-size: 26px;
+    margin-right: 46px;
+  }
+  .contact p {
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+  }
+  .contact .forms {
+    margin-left: 85px;
+  }
+  .contact .form-control {
+    height: 60px;
+    width: 480px;
+    font-size: 14px;
+  }
+  .contact .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact .col-md-6 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact .po {
+    display: none;
+  }
+  .contact .message {
+    font-size: 14px;
+    width: 480px;
+    height: 15vh;
+  }
+  .contact .button {
+    margin-left: 0px;
+    width: 236px;
+    padding: 16px;
+    margin-bottom: 20px;
+    margin-top: 18px;
+  }
+  .contact a {
+    font-size: 20px;
+  }
+  .Nowalls {
+    padding-top: 53px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 21vh;
+  }
+  .Nowalls .phonenumber {
+    margin-left: 160px;
+    position: absolute;
+  }
+  .Nowalls h2 {
+    font-size: 19px;
+    padding-bottom: 0px;
+    margin-top: 8px;
+  }
+  .Nowalls .para5 {
+    font-size: 12px;
+    margin-left: 29px;
+    padding-bottom: 0px;
+    position: absolute;
+  }
+  .Nowalls .location {
+    font-size: 1rem;
+  }
+  .Nowalls .no {
+    font-size: 10px;
+    padding-left: 5px;
+    margin-left: 20px;
+  }
+  .Nowalls .ppp {
+    margin-left: 10px;
+  }
+  .Nowalls .ico {
+    font-size: 1rem;
+    margin-left: 20px;
+  }
+  .Nowalls i {
+    font-size: 20px;
+  }
+  .loggo img {
+    width: 33%;
+    margin-left: 250px;
+    height: 8vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
 @media (min-width: 768px) {
   .dropaz {
     display: none;
@@ -1026,11 +1254,81 @@ p {
   }
 }
 @media only screen and (min-width: 1399.98px) {
+  .home .less {
+    height: 25vh;
+    margin-top: 23px;
+  }
+  .home .two {
+    margin-left: 18px;
+  }
+  .home .img4 {
+    margin-top: 118px;
+  }
+  .home .below1 {
+    width: 319px;
+    margin-top: 8px;
+  }
+  .home .below2 {
+    margin-top: 8px;
+    margin-left: 10px;
+  }
+  .home .below3 {
+    width: 202px;
+    margin-top: 8px;
+  }
+  .home .below4 {
+    margin-top: 8px;
+    margin-left: -42px;
+  }
+  .About h2 {
+    font-size: 40px;
+  }
+  .About p {
+    font-size: 19px;
+    width: 675px;
+  }
+  .About .image55 {
+    width: 68%;
+    margin-left: 139px;
+  }
   .service .card .card-img-top {
     width: 383px;
+  }
+  .service .card .card-text {
+    font-size: 16px;
+  }
+  .service .card .line {
+    width: 366px;
+  }
+  .service .card h5 {
+    font-size: 22px;
+  }
+  .subscribe button {
+    padding: 6px;
+  }
+  .contact p {
+    font-size: 18px;
+  }
+  .contact a {
+    font-size: 20px;
+  }
+  .contact .form-control {
+    font-size: 18px;
   }
   .contact .message {
     padding-left: 29px;
     margin-right: 59px;
+    font-size: 20px;
+  }
+  .contact .get {
+    margin-left: -63px;
+  }
+  .contact img {
+    height: 86vh;
+    width: 75%;
+    margin-right: -2px;
+  }
+  .Nowalls p {
+    font-size: 16px;
   }
 }/*# sourceMappingURL=index.css.map */
